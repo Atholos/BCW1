@@ -1,8 +1,10 @@
 'use strict';
 
+const form = document.getElementById("submit");
 
+form.addEventListener("click",(evt) => {
 
-const validateForm=() => {
+  evt.preventDefault();
   const fname = document.forms["myForm"]["fname"];
   const lname = document.forms["myForm"]["lname"];
   const email = document.forms["myForm"]["email"];
@@ -47,4 +49,4 @@ if(pnumber.value) {
 
   }
 }
-};
+});
