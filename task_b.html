@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Task B</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <h1>Form validation JavaScript</h1>
+
+    <div class="container">
+        <form name="myForm" onsubmit="validateForm()" method="post">
+            <label for="fname">Firstname</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.">
+
+            <label for="lname">Lastname</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name." >
+
+            <label for="email">Email-address</label>
+            <input type="text" id="email" name="email" placeholder="someone@something.com" >
+
+            <label for="pnumber">Phone number</label>
+            <input type="text" id="pnumber" name="phonenumber" placeholder="+358 000111222" >
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" placeholder="Your address.">
+
+            <label for="postalcode">Postal code</label>
+            <input type="text" id="postalcode" name="postalcode" placeholder="Your postal code." >
+
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" placeholder="Password.">
+
+
+            <input type="submit" value="Submit" name="Submit">
+        </form>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
